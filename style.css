@@ -1,0 +1,59 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+     
+}
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Foto/37.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+.header-content {
+    margin-bottom: 150px;
+    color:whitesmoke;
+    text-align: center;
+}
+.header-content h2 {
+    font-size: 4vmin;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background: rgb(4, 0, 255);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+button {
+    background-color: rgb(4, 0, 255); /* Colore di sfondo */
+    border: none; /* Nessun bordo */
+    color: white; /* Colore del testo */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Allineamento del testo */
+    text-decoration: none; /* Nessuna decorazione del testo */
+    display: ; /* Display a blocco */
+    font-size: 16px; /* Dimensione del font */
+    margin: 20px auto 0; /* Margine (top, auto, bottom) */
+    cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+    border-radius: 30px; /* Raggio dei bordi */
+    transition-duration: 0.4s; /* Durata dell'animazione */
+  }
+  
+  button:hover {
+    background-color: #555555; /* Colore di sfondo al passaggio del mouse */
+  }
